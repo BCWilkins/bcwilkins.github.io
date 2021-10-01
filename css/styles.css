@@ -30,7 +30,7 @@ blockquote {
 }
 
 #in-border {
-	
+	padding-bottom: 40px
 }
 
 .profile-picture {
@@ -53,7 +53,58 @@ blockquote {
 	margin: 50px auto;
 }
 
-.details h1{
-	margin: 50px 0 0 0;
+.details div{
+	margin: 50px auto;
+	text-align: center;
+	font-family: franklin gothic;
+	color: #2D5573;
 }
 
+.details h1 {
+	text-transform: uppercase;
+	font-size: 60px;
+}
+
+.details h2 {
+	font-size: 35px;
+}
+
+.details ul {
+	list-style-type: none;
+	margin: 0 100px;
+	padding: 0;
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+.details li {
+	float: left;
+	width: 100px;
+	margin-right: 44px;
+}
+
+.details li:last-child {
+	margin-right: 0px;
+}
+
+.divider-a {
+	background-color: #2D5573;
+	width: 1180px;
+	height: 2px;
+	display: block;
+	margin: 0 50px;
+}
+
+.company-images {
+	margin: 50px 100px;
+}
+
+.company-images img {
+	float: left;
+	width: 250px;
+	margin: 90px 155px 0 0;
+}
+
+.company-images img:last-child {
+	margin: 0;
+}
