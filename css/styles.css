@@ -21,8 +21,11 @@ blockquote {
 	border-left: 0;
 }
 
-#Container {
-	background-color: #38b72f;
+#container {
+	background-color: #efe6ef;
 	width: 1280px;
 	height: 500px;
+	margin: 50px auto;
+	box-shadow: 5px 5px 10px grey;
+	
 }
